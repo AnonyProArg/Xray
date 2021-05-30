@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 cd /etc/VPS-ARG/Xray
+clear 
+clear
 
 #====================================================================
 #███████████████████████████████████████████████████████████████████▀█
@@ -623,8 +625,8 @@ menu() {
   update_sh
   shell_mode_check
   echo -e "\t Script de gestión de la instalación de Xray ${Red}[${shell_version}]${Font}"
-  echo -e "\t---authored by wulabing---"
-  echo -e "\thttps://github.com/wulabing\n"
+  echo -e "\t---Creado:AnonyProArg---"
+  echo -e "\tPREMIUN\n"
 
   echo -e "Versión instalada actualmente：${shell_mode}"
   echo -e "—————————————— Guía de instalación ——————————————"""
