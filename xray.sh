@@ -624,9 +624,9 @@ function install_xray_ws() {
 menu() {
   update_sh
   shell_mode_check
-  echo -e "\t Script de gestión de la instalación de Xray ${Red}[${shell_version}]${Font}"
-  echo -e "\t---Creado:AnonyProArg---"
-  echo -e "\tPREMIUN\n"
+  echo -e "\t 𝕊𝕔𝕣𝕚𝕡𝕥 𝕕𝕖 𝕘𝕖𝕤𝕥𝕚𝕠́𝕟 𝕕𝕖 𝕏𝕣𝕒𝕪 ${Red}[${shell_version}]${Font}"
+  echo -e "\t--𝘾𝙧𝙚𝙖𝙙𝙤 𝙥𝙤𝙧: 𝘼𝙣𝙤𝙣𝙮𝙋𝙧𝙤𝘼𝙧𝙜--"
+  echo -e         "\tP̷R̷E̷M̷I̷U̷N̷\n"
 
   echo -e "Versión instalada actualmente：${shell_mode}"
   echo -e "—————————————— Guía de instalación ——————————————"""
