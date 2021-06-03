@@ -74,7 +74,7 @@ function is_root() {
 
 judge() {
   if [[ 0 -eq $? ]]; then
-    print_ok "$1 realizar"
+    print_ok "$1 REAIZADO"
     sleep 1
   else
     print_error "$1 falla"
@@ -241,7 +241,15 @@ function port_exist_check() {
     print_error "5s Intentará matar automáticamente el proceso ocupado"
     sleep 5
     lsof -i:"$1" | awk '{print $2}' | grep -v "PID" | xargs kill -9
-    print_ok "kill realizar"
+    print_ok "KILL REALIZADO
+    
+    
+    
+    
+    
+    
+    
+    "
     sleep 1
   fi
 }
@@ -632,7 +640,7 @@ menu() {
   echo -e "—————————————— Guía de instalación ——————————————"""
   echo -e "${Green}0.${Font}  Actualizar script"
   echo -e "${Green}1.${Font}  instalación Xray (VLESS + TCP + XTLS / TLS + Nginx)"
-  echo -e "${Green}2.${Font}  instalación Xray (VLESS + TCP + XTLS / TLS + Nginx y VLESS + TCP + TLS + Nginx + WebSocket Modelo de coexistencia alternativa)"
+  echo -e "${Green}2.${Font}  instalación Xray (VLESS + TCP + XTLS / TLS + Nginx y VLESS + TCP + TLS + Nginx + WebSocket Modelo de coexistencia (RECOMENDADO)"
   echo -e "—————————————— Cambios de configuración ——————————————"
   echo -e "${Green}11.${Font} Cambiar UUID"
   echo -e "${Green}12.${Font} Cambiar la versión mínima de adaptación de TLS"
