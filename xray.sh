@@ -632,15 +632,14 @@ function install_xray_ws() {
 menu() {
   update_sh
   shell_mode_check
-  echo -e "\t 𝕊𝕔𝕣𝕚𝕡𝕥 𝕕𝕖 𝕘𝕖𝕤𝕥𝕚𝕠́𝕟 𝕕𝕖 𝕏𝕣𝕒𝕪 ${Red}[${shell_version}]${Font}"
-  echo -e "\t--𝘾𝙧𝙚𝙖𝙙𝙤 𝙥𝙤𝙧: 𝘼𝙣𝙤𝙣𝙮𝙋𝙧𝙤𝘼𝙧𝙜--"
-  echo -e         "\tP̷R̷E̷M̷I̷U̷N̷\n"
+  echo -e "\t   MENU DE ADMINISTRACION DE XRAY ${Red}[${shell_version}]${Font}"
+  echo -e"\t              PREMIUM"
 
   echo -e "Versión instalada actualmente：${shell_mode}"
   echo -e "—————————————— Guía de instalación ——————————————"""
   echo -e "${Green}0.${Font}  Actualizar script"
   echo -e "${Green}1.${Font}  instalación Xray (VLESS + TCP + XTLS / TLS + Nginx)"
-  echo -e "${Green}2.${Font}  instalación Xray (VLESS + TCP + XTLS / TLS + Nginx y VLESS + TCP + TLS + Nginx + WebSocket Modelo de coexistencia (RECOMENDADO)"
+  echo -e "${Green}2.${Font}  instalación Xray (VLESS + TCP + TLS + Nginx + WebSocket Modelo de coexistencia (RECOMENDADO))"
   echo -e "—————————————— Cambios de configuración ——————————————"
   echo -e "${Green}11.${Font} Cambiar UUID"
   echo -e "${Green}12.${Font} Cambiar la versión mínima de adaptación de TLS"
